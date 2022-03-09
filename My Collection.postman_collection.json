@@ -1,0 +1,27 @@
+{
+	"info": {
+		"_postman_id": "9695e1ee-e3a6-497a-a3fc-fb3d78ccd9f0",
+		"name": "My Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET_Single_User6",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{test_server}}api/users/6",
+					"host": [
+						"{{test_server}}api"
+					],
+					"path": [
+						"users",
+						"6"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
